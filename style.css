@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Charm|Great+Vibes');
+body{
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px 15px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    height:1200px;
+	
+}
+
+.clear{
+	clear: both;
+}
+
+h1{
+    font-size: 2.2em;
+    color:rgb(145, 8, 8);
+}
+#logo{
+	float: right;
+}
+
+#tagline{
+	float: left;
+	margin-right: 20px;
+	font-family: 'Great Vibes', cursive;
+}
+#menu{
+    border: 2px solid rgb(24, 64, 114);
+    border-radius: 20px;
+    padding: 10px 0;
+}
+    #menu ul{
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #menu ul li{
+        display: inline;
+        padding: 10px 20px;
+        margin: 0;
+    }
+    
+    #menu ul li a{
+        color:rgb(145, 8, 8);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+    }
+    .img{
+        width: 100%;
+
+    }
+    .left{
+        width: 300px;
+        float: left;
+    }
+    
+    .right{
+        float: right;
+        width: 480px;
+        height: 320px;
+        object-fit: cover;
+    }
+    .clear{
+        clear: both;
+    }
+    #things li{
+        list-style-image: url('../images/arrow.png');
+    }
+   
+    .left{
+        width:300px;}
+        
+        .clear{
+        clear: both;
+    }
+
+        h2{
+            color:rgb(145, 8, 8);
+        }
+
+        .right img, .left img{
+            width: 100%;
+        }
+        
+        footer{
+            text-align: center;
+            background-color: rgba(0,0,0, 0.5);
+            color: white;
+            padding: 20px;
+        }
+        html{
+            background-image: url('../images/background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;
+        }
+        body{
+            background-color: rgb(86, 144, 216,0.6);
+        }
+        
+        
